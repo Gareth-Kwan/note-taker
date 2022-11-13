@@ -14,7 +14,7 @@ This challenge encourages us to utilize the knowledge we learned about Express J
 
 # GitHub
 
-[GitHub Repository](https://github.com/Gareth0201/note-taker)
+[GitHub Repository](https://github.com/Gareth-Kwan/note-taker)
 
 [Deployed GitHub Application](https://gareth0201.github.io/note-taker/)
 
