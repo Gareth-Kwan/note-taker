@@ -1,17 +1,22 @@
 [
     {
-        "title": "Test Title 1",
-        "text": "Test Text 1",
-        "id": "6611ea96-d38f-4a7a-88d1-bab47dd94fcc"
-    },
-    {
         "title": "Monday",
-        "text": "Notes from monday ",
-        "id": "f9b830b7-42f6-4cfb-94e4-bd30ab27fd5b"
+        "text": "Monday Notes",
+        "id": "0d694b70-f316-4e3e-b35e-d3d34ec95bcc"
     },
     {
-        "title": "Tuesday ",
-        "text": "Notes from Tuesday ",
-        "id": "404b29cc-7581-4109-89cd-83f8ac5c170f"
+        "title": "Tuesday",
+        "text": "Tuesday Notes",
+        "id": "4b4777bc-96dd-4594-9838-18c02c38e684"
+    },
+    {
+        "title": "Wednesday ",
+        "text": "Wednesday notes",
+        "id": "2e6cfc43-e5fb-4894-bc5b-7a8c5c360712"
+    },
+    {
+        "title": "Thursday",
+        "text": "Thursday Notes ",
+        "id": "3ac161bf-de3c-4920-ae9f-a2f699ddf074"
     }
 ]

@@ -20,4 +20,8 @@ This challenge encourages us to utilize the knowledge we learned about Express J
 
 # Screenshots
 
-![Screenshot 2022-11-09 180812](https://user-images.githubusercontent.com/108771904/200961494-5f537a66-5d21-4d69-9f6b-581fe186faca.jpg)
+Dashboard
+![Screenshot 2022-11-15 233958](https://user-images.githubusercontent.com/108771904/202085578-0492cd84-7c02-4eed-b76e-1b22c7ff8f30.jpg)
+
+Notes Page
+![Screenshot 2022-11-15 233940](https://user-images.githubusercontent.com/108771904/202085607-88dcec9c-7da8-4ee0-bdbc-7b4beda3c3c2.jpg)
