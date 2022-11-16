@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 //Routes to HTML and API
 app.use("/", HTMLRouter);
-app.use("/", APIRouter);
+app.use("/api", APIRouter);
 
 // Listening for confirmation
 app.listen(port, () => {

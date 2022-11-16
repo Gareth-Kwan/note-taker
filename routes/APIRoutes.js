@@ -6,12 +6,12 @@ const { readFromFile, readAndAppend, writeToFile } = require("../helpers/fsUtils
 const path = require("path");
 
 // GET Route for retrieving the data from notes
-router.get("/api/notes", (req, res) => {
+router.get("/notes", (req, res) => {
   readFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
 // Post Route for post all the notes I enter to the page
-router.post("/api/notes", (req, res) => {
+router.post("/notes", (req, res) => {
   const { title, text, id } = req.body;
   if (req.body) {
     const newNote = {
@@ -26,7 +26,7 @@ router.post("/api/notes", (req, res) => {
 });
 
 // Delete Route to delete the note by ID
-router.delete("/api/notes/:id", (req, res) => {
+router.delete("/notes/:id", (req, res) => {
   const noteId = req.params.id;
   console.log(noteId);
   readFromFile("./db/db.json")
