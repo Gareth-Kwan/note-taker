@@ -2,7 +2,6 @@
 const express = require("express");
 const HTMLRouter = require("./routes/HTMLRoutes");
 const APIRouter = require("./routes/APIRoutes");
-const path = require("path");
 
 //Set up express and assign the port number
 const app = express();
@@ -16,24 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //Routes to HTML and API
-// app.use("/", HTMLRouter);
+app.use("/", HTMLRouter);
 app.use("/api", APIRouter);
-
-//HTML Route
-
-//Endpoint to get the index HTML from public file
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
-
-//Endpoint to get notes HTML from public file
-app.get("/notes", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/notes.html"));
-});
-
-app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
 
 // Listening for confirmation
 app.listen(port, () => {
