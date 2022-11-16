@@ -12,17 +12,13 @@ router.get("/api/notes", (req, res) => {
 
 // Post Route for post all the notes I enter to the page
 router.post("/api/notes", (req, res) => {
-  // console.log(req.body);
-
   const { title, text, id } = req.body;
-
   if (req.body) {
     const newNote = {
       title,
       text,
       id: uuidv4(),
     };
-
     readAndAppend(newNote, "./db/db.json");
   } else {
     res.error("Error in adding new notes");
@@ -36,7 +32,6 @@ router.delete("/api/notes/:id", (req, res) => {
   readFromFile("./db/db.json")
     .then((data) => JSON.parse(data))
     .then((json) => {
-      // console.log(json);
       const result = json.filter((text) => text.id !== noteId);
       writeToFile("./db/db.json", result);
     });

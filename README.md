@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/languages/count/Gareth0201/note-taker?style=for-the-badge"  />
     <img src="https://img.shields.io/github/languages/top/Gareth0201/note-taker?style=for-the-badge"  />
     <img src="https://img.shields.io/github/repo-size/Gareth0201/note-taker?style=for-the-badge"  />   
-    <img src="https://img.shields.io/tokei/lines/github/Gareth0201/note-taker?style=for-the-badge"  />
+    <!-- <img src="https://img.shields.io/tokei/lines/github/Gareth0201/note-taker?style=for-the-badge"  /> -->
     <img src="https://img.shields.io/github/last-commit/Gareth0201/note-taker?style=for-the-badge" />  
         
   </p>
@@ -16,7 +16,7 @@ This challenge encourages us to utilize the knowledge we learned about Express J
 
 [GitHub Repository](https://github.com/Gareth-Kwan/note-taker)
 
-[Deployed GitHub Application](https://gareth0201.github.io/note-taker/)
+[Deployed Heroku Application](https://gareth-note-taker.herokuapp.com/)
 
 # Screenshots
 
