@@ -10,7 +10,7 @@
         
   </p>
 
-This challenge encourages us to utilize the knowledge we learned about Express JS to make Get, Post and Delete rest through the HTTP module.
+This challenge encourages us to utilize the knowledge we learned about Express JS to make Get, Post and Delete request through the HTTP module.
 
 # GitHub
 
