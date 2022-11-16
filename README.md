@@ -2,11 +2,11 @@
 
 </br>
   <p align="center">
-    <img src="https://img.shields.io/github/languages/count/Gareth0201/note-taker?style=for-the-badge"  />
-    <img src="https://img.shields.io/github/languages/top/Gareth0201/note-taker?style=for-the-badge"  />
-    <img src="https://img.shields.io/github/repo-size/Gareth0201/note-taker?style=for-the-badge"  />   
+    <img src="https://img.shields.io/github/languages/count/Gareth-Kwan/note-taker?style=for-the-badge"  />
+    <img src="https://img.shields.io/github/languages/top/Gareth-Kwan/note-taker?style=for-the-badge"  />
+    <img src="https://img.shields.io/github/repo-size/Gareth-Kwan/note-taker?style=for-the-badge"  />   
     <!-- <img src="https://img.shields.io/tokei/lines/github/Gareth0201/note-taker?style=for-the-badge"  /> -->
-    <img src="https://img.shields.io/github/last-commit/Gareth0201/note-taker?style=for-the-badge" />  
+    <img src="https://img.shields.io/github/last-commit/Gareth-Kwan/note-taker?style=for-the-badge" />  
         
   </p>
 
